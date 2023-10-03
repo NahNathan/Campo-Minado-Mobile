@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela_ComoJogar">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="298dp"
+        android:layout_height="291dp"
+        android:text="Os números nos quadrados indicam quantas minas estão adjacentes a esse quadrado. Por exemplo, se um quadrado tem o número 1, isso significa que há uma mina em um dos quadrados adjacentes a ele. Você pode usar essas informações para deduzir onde as minas estão localizadas e clicar nos quadrados seguros. Você também pode marcar os quadrados que você acha que contêm minas com uma bandeira (🚩) segurando o quadrado"
+        app:layout_constraintBottom_toTopOf="@+id/bt_Jogar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/bt_Jogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
