@@ -14,7 +14,7 @@ class Tela_ComoJogar : AppCompatActivity() {
         bt_Jogar = findViewById(R.id.bt_Jogar)
 
         bt_Jogar.setOnClickListener {
-            val intent = Intent(this,Tela_OJogo::class.java)
+            val intent = Intent(this,Tela_Dificuldade::class.java)
             this.startActivity(intent)
         }
     }
