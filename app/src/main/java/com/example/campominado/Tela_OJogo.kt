@@ -31,6 +31,12 @@ class Tela_OJogo : AppCompatActivity() {
                         val cell = game.getCell(row, col)
                         game.revealCell(cell, this@Tela_OJogo)
                     }
+                    setOnLongClickListener {
+                        val cell = game.getCell(row, col)
+                        game.toggleMark(cell)
+                        updateButton(cell, this)
+                        true // Indica que o evento foi consumido
+                    }
                     gridLayout.addView(this)
                 }
             }
