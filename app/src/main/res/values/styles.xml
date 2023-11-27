@@ -5,6 +5,7 @@
         <item name="android:buttonStyle">@style/CustomButtonStyle</item>
         <item name="android:colorBackground">@color/background_color</item>
         <item name="android:textColor">@color/text_color</item>
+        <item name="colorPrimary">@color/header_color</item>
     </style>
 
     <!-- Estilo para botões -->
