@@ -8,13 +8,15 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Aqui os recordes do jogo"
+        android:layout_width="252dp"
+        android:layout_height="451dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text=" 1 -  NAT - 9300 2-  AUG - 9100 3-  COL - 8000 4-  HEY - 7800 5-  KEN - 7300 6-  KEL - 7100 7-  LUI - 7000 8-  FRD - 6900 9-  GUS - 6800 10-  YAY - 6100"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

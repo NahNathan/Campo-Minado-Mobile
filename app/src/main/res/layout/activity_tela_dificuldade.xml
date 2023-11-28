@@ -8,9 +8,11 @@
 
     <Button
         android:id="@+id/bt_facil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/rubik_medium"
         android:text="Fácil"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/bt_medio"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -20,9 +22,11 @@
 
     <Button
         android:id="@+id/bt_medio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/rubik_medium"
         android:text="Médio"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/bt_dificil"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -32,21 +36,24 @@
 
     <Button
         android:id="@+id/bt_dificil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/rubik_medium"
         android:text="Difícil"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/bt_legendario"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_medio"
         app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/bt_legendario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/rubik_medium"
         android:text="Legendário"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -58,7 +65,9 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_medium"
         android:text="Escolha a Dificuldade"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/bt_facil"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

@@ -6,47 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="IFMina - Campo Minado"
-        app:layout_constraintBottom_toTopOf="@+id/bt_comojogar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <Button
-        android:id="@+id/bt_comojogar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Como Jogar"
-        app:layout_constraintBottom_toTopOf="@+id/bt_jogar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <Button
-        android:id="@+id/bt_jogar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Jogar"
-        app:layout_constraintBottom_toTopOf="@+id/bt_scores"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_comojogar"
-        app:layout_constraintVertical_bias="0.5" />
-
     <Button
         android:id="@+id/bt_scores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/righteous"
         android:text="Scores"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/bt_creditos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -55,15 +21,59 @@
         app:layout_constraintVertical_bias="0.5" />
 
     <Button
+        android:id="@+id/bt_comojogar"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:editable="false"
+        android:elevation="10dp"
+        android:fontFamily="@font/righteous"
+        android:text="Como Jogar"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_jogar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/bt_jogar"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/righteous"
+        android:text="Jogar"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_scores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_comojogar"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
         android:id="@+id/bt_creditos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/righteous"
         android:text="Créditos"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_scores"
         app:layout_constraintVertical_bias="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/bt_comojogar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
